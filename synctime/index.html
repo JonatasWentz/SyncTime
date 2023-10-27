@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/style.css" media="screen" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+    <script src="./js/script.js"></script>
+    <title>SyncTime</title>
+</head>
+<body>
+    <header class="inicio">
+        <a class="name" href="#"><h1>SyncTime</h1></a>
+        <ul>
+            <a href="#"><li>Jonatas Wentz Dev</li></a>
+            <a href="#"><li>Desenvolvedor</li></a>
+        </ul>
+    </header>
+
+    <div class="container">
+        <div class="titulo">
+            <h2>SyncTime</h2>
+            <p>Lembre-se de que a organização é uma habilidade que pode ser desenvolvida com o tempo.<br> Experimente diferentes estratégias e ajuste seu processo de acordo com o que funciona melhor para você e para suas necessidades específicas.</p>
+        </div>
+
+    
+
+        <div id="semana">
+            <div class="dias">
+                <ul class="calendar2">
+                    <li>
+                        <label for="item1">Segunda - Feira:</label>
+                        <input class="texto" type="text" name="day1">
+                        <p>Insira suas tarefas</p>
+                        <ul id="tarefas1"></ul>
+                    </li>
+                    <li>
+                        <label for="item1">Terca - Feira:</label>
+                        <input class="texto" type="text" name="day2">
+                        <p>Insira suas tarefas</p>
+                        <ul id="tarefas2"></ul>
+                    </li>
+                    <li>
+                        <label for="item1">Quarta - Feira:</label>
+                        <input class="texto" type="text" name="day3">
+                        <p>Insira suas tarefas</p>
+                        <ul id="tarefas3"></ul>
+                    </li>
+                    <li>
+                        <label for="item1">Quinta - Feira:</label>
+                        <input class="texto" type="text" name="day4">
+                        <p>Insira suas tarefas</p>
+                        <ul id="tarefas4"></ul>
+                    </li>
+                    <li>
+                        <label for="item1">Sexta - Feira:</label>
+                        <input class="texto" type="text" name="day5">
+                        <p>Insira suas tarefas</p>
+                        <ul id="tarefas5"></ul>
+                    </li>
+                    <li>
+                        <label for="item1">Sabado:</label>
+                        <input class="texto" type="text" name="day6">
+                        <p>Insira suas tarefas</p>
+                        <ul id="tarefas6"></ul>
+                    </li>
+                    <li>
+                        <label for="item1">Domingo:</label>
+                        <input class="texto" type="text" name="day7">
+                        <p>Insira suas tarefas</p>
+                        <ul id="tarefas7"></ul>
+                    </li>
+                </ul>
+        
+                <button onclick="adicionarTarefas()" class="send">Adicionar Tarefas</button>
+                <button onclick="limparTarefas()" class="send">Limpar Tarefas</button>
+            </div>
+        </div> 
+                
+                
+            
+    </div>
+    
+    
+</body>
+</html>

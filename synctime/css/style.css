@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Acme', sans-serif;
+    
+}
+
+a{
+text-decoration: none;
+color: black;
+}
+
+
+.inicio {
+        background-color: black;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 8em;
+        
+    }
+
+.inicio .name {
+        text-decoration: none;
+        font-size: 1.5em;
+        color: #ccc;
+
+}
+
+.inicio ul {
+        list-style: none;
+        display: flex;
+        color: #ccc;
+    }
+
+.inicio li {
+      margin: 3em;
+      font-size: 1.3em;
+      color: #ccc;
+}
+
+.container {
+    background-image: url(./imagens/fundo.gif);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.titulo, div h2 h3 {
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 1em; /* Adiciona espaçamento inferior */
+}
+
+
+
+
+
+.calendar2 {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr); /* Define 7 colunas para representar dias da semana */
+    grid-gap: 10px; /* Espaçamento entre os quadrados */
+    list-style: none;
+    padding: 0;
+    height: 19em;
+    font-size: 1.5em;
+    margin: 1em;
+}
+
+.calendar2 p{
+    font-size: 0.5em;
+    margin-top: 1em;
+}
+
+.calendar2 li {
+    background-color: #f0f0f0; /* Cor de fundo dos quadrados */
+    border: 1px solid #ccc; /* Borda dos quadrados */
+    padding: 10px; /* Espaçamento interno dos quadrados */
+    text-align: center;
+}
+
+.calendar2 input {
+    width: 100%; /* O campo de entrada ocupa todo o espaço do quadrado */
+    margin-top: 2em;
+    height: 4em;
+    border-radius: 1em;
+}
+
+.send {
+    height: 3em;
+    width: 7em;
+    display: block;
+    margin: 0 auto;
+    margin-top: 1em;
+    border-radius: 2em;
+    font-size: 1.2em;
+}
+
